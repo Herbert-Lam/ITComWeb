@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Hardware by Herbert's IT</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/hardwarestyle.css">
+        <link rel="icon" href="images/favicon.png" type="images/png">
+    </head>
+    <body>
+        <div id="wrapper">
+            <nav>
+                <a href="home.html">
+                    <img src="images/logo.png" id="companylogo" alt="company">
+                </a>
+                <ul id="mainnav">
+                    <li>
+                        <a href="home.html">Home</a>
+                    </li>
+                    <li class="dropdown">
+                        <span class="dropdowntext">
+                            Product
+                        </span>
+                        <ul class="dropdowncontent">
+                            <li><a href="bussoln.html">Business Solution</a></li>
+                            <li><a href="hardware.html">Hardware</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="events.html">Events</a>
+                    </li>
+                    <li class="dropdown">
+                        <span class="dropdowntext">
+                            About Us
+                        </span>
+                        <ul class="dropdowncontent">
+                            <li><a href="aboutus.html">About Us</a></li>
+                            <li><a href="contactus.html">Contact Us</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+            <main>
+                <h1>Superior Hardware, speedy forever</h1>
+                <img src="images/hardwaremain.jpg" class="mainimg" alt="bussolnimg">
+                <p class="maintext">We equip your company to instantly access information - with the premium hardware by Herbert's IT.</p>
+                <p class="subtext">Order now and experience the latest technological hardware.</p>
+
+                <div id="hardwarediv">
+                    <div class="hardwareitem">
+                        <img src="images/networking.jpg" alt="networking">
+                        <div class="ordersubsection">
+                            <h2>Server and Office Networking</h2>
+                            <h3>Connect to the world</h3>
+                            <span class="subtext">Please feel free to <a href="contactus.html" id="contactuslink">contact us</a> for further details.</span>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="hardwareitem">
+                        <img src="images/cpu.jpg" alt="cpu">
+                        <div class="ordersubsection">
+                            <h2>Lightspeed&trade; CPU</h2>
+                            <h3>512 cores x 128GHz processor</h3>
+                            <h3>Unit Price: $299.99</h3>
+                            <form>
+                                <div class="orderqty">
+                                    <label for="ordercpuinput">Quantity:</label>
+                                    <input type="number" min="1" max="99" value="1" name="order" id="ordercpuinput">
+                                </div>
+                                <div class="orderbtn">
+                                    <button type="button" onclick="addCart(this)" id="ordercpuaddcart">Add to Cart</button>
+                                    <button type="button" onclick="cancel(this)" id=ordercpucancel>Cancel</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="hardwareitem">
+                        <img src="images/graphiccard.jpg" alt="graphiccard">
+                        <div class="ordersubsection">
+                            <h2>SharpColor&trade; Graphic Card</h2>
+                            <h3>512GB ram, GDDR64</h3>
+                            <h3>Unit Price: <s>$299.99</s>&nbsp;&nbsp;$259.99&nbsp;&nbsp;<span class="discounttext">13% OFF!</span></h3>
+                            <form>
+                                <div class="orderqty">
+                                    <label for="ordergpuinput">Quantity:</label>
+                                    <input type="number" min="1" max="99" value="1" name="order" id="ordergpuinput">
+                                </div>
+                                <div class="orderbtn">
+                                    <button type="button" onclick="addCart(this)" id="ordergpuaddcart">Add to Cart</button>
+                                    <button type="button" onclick="cancel(this)" id=ordergpucancel>Cancel</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="hardwareitem">
+                        <img src="images/keyboard.jpg" alt="keyboard">
+                        <div class="ordersubsection">
+                            <h2>Immortal&trade; Keyboard</h2>
+                            <h3>Low latency, quiet and proven test under 10 billions hit times</h3>
+                            <h3>Unit Price: $199.99</h3>
+                            <form>
+                                <div class="orderqty">
+                                    <label for="orderkeyboardinput">Quantity:</label>
+                                    <input type="number" min="1" max="99" value="1" name="order" id="orderkeyboardinput">
+                                </div>
+                                <div class="orderbtn">
+                                    <button type="button" onclick="addCart(this)" id="orderkeyboardaddcart">Add to Cart</button>
+                                    <button type="button" onclick="cancel(this)" id="orderkeyboardcancel">Cancel</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="hardwareitem">
+                        <img src="images/mouse.jpg" alt="mouse">
+                        <div class="ordersubsection">
+                            <h2>Eternity&trade; Mouse</h2>
+                            <h3>Low latency, quiet and proven test under 10 billions hit times</h3>
+                            <h3>Unit Price: <s>$159.99</s>&nbsp;&nbsp;$139.99&nbsp;&nbsp;<span class="discounttext">12.5% OFF!</span></h3>
+                            <form>
+                                <div class="orderqty">
+                                    <label for="ordermouseinput">Quantity:</label>
+                                    <input type="number" min="1" max="99" value="1" name="order" id="ordermouseinput">
+                                </div>
+                                <div class="orderbtn">
+                                    <button type="button" onclick="addCart(this)" id="ordermouseaddcart">Add to Cart</button>
+                                    <button type="button" onclick="cancel(this)" id="ordermousecancel">Cancel</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    <hr>
+                    <div id="ordersummary">
+                        <table>
+                            <caption>
+                                Your Order Summary
+                            </caption>
+                            <thead>
+                                <tr>
+                                    <td id="ordersummary1stcol">Item</td>
+                                    <td id="ordersummary2ndcol">Unit Price</td>
+                                    <td id="ordersummary3rdcol">Qty</td>
+                                    <td id="ordersummary4thcol">Amount</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Lightspeed&trade; CPU&nbsp;&nbsp;<span class="orderitemdescr">(512 cores x 128GHz processor)</span></td>
+                                    <td style="text-align: center;">$299.99</td>
+                                    <td style="text-align: center;" id="orderedcpuqty">0</td>
+                                    <td style="text-align: right;" id="cpusubtotal">$0.00</td>
+                                </tr>
+                                <tr>
+                                    <td>SharpColor&trade; Graphic Card&nbsp;&nbsp;<span class="orderitemdescr">(512GB ram, GDDR64)</span></td>
+                                    <td style="text-align: center;">$259.99</td>
+                                    <td style="text-align: center;" id="orderedgpuqty">0</td>
+                                    <td style="text-align: right;" id="gpusubtotal">$0.00</td>
+                                </tr>
+                                <tr>
+                                    <td>Immortal&trade; Keyboard</td>
+                                    <td style="text-align: center;">$199.99</td>
+                                    <td style="text-align: center;" id="orderedkeyboardqty">0</td>
+                                    <td style="text-align: right;" id="keyboardsubtotal">$0.00</td>
+                                </tr>
+                                <tr>
+                                    <td>Eternity&trade; Mouse</td>
+                                    <td style="text-align: center;">$139.99</td>
+                                    <td style="text-align: center;" id="orderedmouseqty">0</td>
+                                    <td style="text-align: right;" id="mousesubtotal">$0.00</td>
+                                </tr>
+                            </tbody>
+                            <tfoot>
+                                <tr>
+                                    <td colspan="2" style="text-align: right;">Total Amount:</td>
+                                    <td colspan="2" style="text-align: right;" id="totalamount">$0.00</td>
+                                </tr>
+                            </tfoot>
+                        </table>
+                        <form action="thankyouorder.html" id="checkoutform">
+                            <div id="emaildiv">
+                                <label for="orderemail">Your email*:&nbsp;</label>
+                                <input type="email" name="orderemail" id="orderemail" required>
+                            </div>
+                            <button type="submit" id="checkoutbtn" formaction="thankyouorder.html">Proceed to checkout</button>
+                        </form>
+                    </div>
+                </div>
+            </main>
+            <footer>
+                This is a personal academic project of multimedia web development. The content is not present in real life. All photo credits of this website are quoted in the report. &nbsp;&copy; By Herbert Chung Hin Lam
+            </footer>
+        </div>
+        <script src="javascript/hardwarescript.js"></script>
+    </body>
+</html>

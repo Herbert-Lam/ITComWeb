@@ -1,0 +1,84 @@
+form{
+    width: 40%;
+    margin: 30px auto;
+    font-family: Calibri, 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    text-align: left;
+}
+legend{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Calibri, 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+}
+.contactusitem{
+    display:flex;
+    justify-content:space-between;
+    margin:10px 20px 20px 20px;
+    font-size:18px;
+    line-height: 30px;
+    flex-wrap: wrap;
+}
+.contactusitem input{
+    width:55%;
+}
+.contactusitem input::placeholder{
+    font-size: 14px;
+    font-style: italic;
+    font-family: Calibri, 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+}
+#reply{
+    width:35%;
+    display:flex;
+    justify-content: space-evenly;
+}
+#reply label{
+    margin-left:5px;
+    margin-right:5px;
+}
+#reply input{
+    width: auto;
+}
+#category{
+    width: 55%;
+    box-sizing: content-box;
+    padding: 0px 2px 0px 2px;
+    font-size:14px;
+}
+#commentlabel{
+    flex-basis: 100%;
+    margin-bottom:10px;
+}
+#comment{
+    width:100%;
+    min-height: 100px;
+}
+#comment::placeholder{
+    font-size: 14px;
+    font-style: italic;
+    font-family: Calibri, 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+}
+#contactusbtn{
+    margin:10px 20px 20px 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+button{
+    padding: 10px 30px;
+    font-size:16px;
+}
+@media(max-width: 1280px){
+    form{
+        width:80%;
+    }
+}
+@media(max-width: 880px){
+    form{
+        width:100%;
+        margin:0 auto;
+    }
+    fieldset{
+        padding: 5px;
+    }
+    button{
+        padding: 10px;
+    }
+}

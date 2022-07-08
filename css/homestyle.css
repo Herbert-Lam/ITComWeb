@@ -1,0 +1,38 @@
+#homeblock{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    margin-top: 30px;
+}
+.homesubblock{
+    width: 25%;
+    background-color: lightgrey;
+    border-top: 2px solid #f9f9f9;
+    border-left: 2px solid #f9f9f9;
+    border-right: 2px solid #f9f9f9;
+    border-bottom: 2px solid #2776ea;
+    text-align:center;
+    font-family: Calibri,'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    font-size:20px;
+    font-weight: bold;
+    padding-bottom:4px;
+}
+.homesubblock a{
+    text-decoration: none;
+    color:#2776ea;
+}
+.homesubblock:hover {
+    border: 2px solid #2776ea;
+    box-shadow: 0 0px 5px #2776ea;
+}
+.mainbannerimg{
+    width: 100%;
+}
+@media (max-width:880px){
+    #homeblock{
+        margin-top:10px;
+    }
+    .homesubblock{
+        font-size:18px;
+    }
+}

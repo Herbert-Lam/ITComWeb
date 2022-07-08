@@ -1,0 +1,197 @@
+html{
+    background-color: black;
+    height: 100%;
+}
+body{
+    margin: 0px;
+    height: 100%;
+}
+#wrapper{
+    width: 75%;
+    background-color: #f9f9f9;
+    margin: 0 auto;
+    box-shadow: 0 0 50px 10px #2776ea;
+    box-sizing: border-box;
+    margin-top:20px;
+    margin-bottom:20px;
+    overflow:auto;
+    position: relative;
+}
+nav{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    margin: 20px 40px 20px 40px;
+    text-align: center;
+    border-bottom: 3px solid #2776ea;
+    font-family:Calibri, 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    color: #2776ea;
+}
+#mainnav{
+    margin: 0 0 0 auto;
+    vertical-align: middle;
+    font-size: 22px;
+    height: 60px;
+    padding-left:0px;
+}
+li{
+    display: inline-block;
+    list-style-type: none;
+    margin:0 5px 0 5px;
+    width: 130px;
+}
+li a{
+    display: inline-block;
+    text-decoration: none;
+    color: #2776ea;
+    line-height: 60px;
+    width:100%;
+}
+li:hover{
+    background-color: #ddd;
+}
+.dropdown{
+    position: relative;
+    height:60px;
+}
+.dropdowntext{
+    line-height:60px;
+}
+.dropdowncontent{
+    display: none;
+    position: absolute;
+    width: 130px;
+    top: 60px;
+    background-color: #dae6f8;
+    padding: 0px;
+    z-index: 1;
+ }
+.dropdowncontent li{
+    display: block;
+    text-align: center;
+    margin: 0px;
+}
+.dropdowncontent a{
+    color: #2776ea;
+    text-decoration: none;
+    vertical-align: middle;
+    line-height: 22px;
+    padding-top:10px;
+    padding-bottom:10px;
+    width:100%;
+}
+.dropdowncontent li:hover {
+    background-color: #aaccff;
+}
+.dropdown:hover .dropdowncontent{
+    display: block;
+}
+
+main{
+    margin: 20px 40px 30px 40px;
+}
+h1{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    color: #2776ea;
+}
+.mainimg{
+    width: 100%;
+}
+.maintext{
+    text-align:center;
+    width: 100%;
+    margin: 25px auto 0px;
+    color: #505050;
+    font-family: Calibri,'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    font-size: 24px;
+    font-weight:bold;
+}
+.subtext{
+    font-size:20px;
+    text-align:center;
+    width: 100%;
+    margin: 8px auto;
+    color: #505050;
+    font-family: Calibri,'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+}
+#contactuslink{
+    text-decoration: underline;
+    color:#505050;
+}
+#contactuslink:hover{
+    color:#808080;
+}
+footer{
+    font-size:12px;
+    font-style:italic;
+    text-align:center;
+    margin-top:10px;
+    padding-top:5px;
+    padding-bottom:5px;
+    background-color: #ddd;
+    width: 100%;
+}
+@media(max-width: 1280px){
+    #wrapper{
+        width:95%;
+    }
+}
+@media(max-width: 880px){
+    #wrapper{
+        margin:0px;
+        width:100%;
+    }
+    nav{
+        margin:0px;
+        display:block;
+    }
+    #mainnav{
+        height:100%;
+        background-color:#dae6f8;
+    }
+    li{
+        display:block;
+        margin:0 auto;
+        width:100%;
+    }
+    li a{
+        line-height:normal;
+        padding-top:5px;
+        padding-bottom:5px;
+    }
+    .dropdown{
+        position: static;
+        height:100%;
+    }
+    .dropdowncontent{
+        display:block;
+        position:static;
+        width:100%;
+    }
+    .dropdowncontent a{
+        line-height: normal;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+    .dropdowntext{
+        display:none;
+    }
+    .dropdowncontent li:hover {
+        background-color: #ddd;
+    }
+    h1{
+        font-size:22px;
+    }
+    .maintext{
+        margin:10px auto 0px;
+        font-size:20px;
+    }
+    .subtext{
+        font-size: 18px;
+    }
+    main{
+        margin:0 10px 0 10px;
+    }
+}

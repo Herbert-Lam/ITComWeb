@@ -1,0 +1,145 @@
+#hardwarediv{
+    width:65%;
+    margin: 20px auto;
+    display:flex;
+    flex-wrap: wrap;
+    font-family:Calibri, 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    color: #256bd4;
+}
+.hardwareitem{
+    width:100%;
+    display:flex;
+    justify-content: left;
+}
+hr{
+    width:100%;
+    margin-top:15px;
+    margin-bottom:15px;
+}
+.ordersubsection{
+    margin-left:40px;
+    width:60%;
+}
+h2{
+    text-decoration: underline;
+}
+h3{
+    font-weight:normal;
+}
+form{
+    display:flex;
+    justify-content: left;
+}
+form input{
+    width:80px;
+    margin: 0 5px 0 5px;
+}
+.orderbtn{
+    width:40%;
+    display:flex;
+    justify-content: space-evenly;
+}
+.discounttext{
+    font-weight:bold;
+    color:red;
+}
+#ordersummary{
+    width:90%;
+    margin:0 auto;
+    display:none;
+}
+table{
+    width:100%;
+    border-collapse: collapse;
+}
+caption{
+    font-weight: bold;
+    font-size:24px;
+    text-decoration: underline;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+thead, tfoot{
+    font-weight: bold;
+}
+#ordersummary1stcol{
+    width:60%;
+}
+#ordersummary2ndcol{
+    width:15%;
+    text-align: center;
+}
+#ordersummary3rdcol{
+    width:10%;
+    text-align: center;
+}
+#ordersummary4thcol{
+    width:15%;
+    text-align: right;
+}
+td{
+    padding: 5px 10px 5px 10px;
+    font-size: 20px;
+}
+tbody td{
+    vertical-align: top;
+    height: 34px;
+}
+.orderitemdescr{
+    font-style:italic
+}
+#checkoutform{
+    width:90%;
+    display:flex;
+    justify-content: space-evenly;
+    font-weight: bold;
+    font-size:20px;
+    margin-top:20px;
+}
+#orderemail{
+    margin:0px;
+    width:150px;
+}
+#checkoutbtn{
+    font-weight:bold;
+}
+@media(max-width: 1280px){
+    #hardwarediv{
+        width:95%;
+    }
+}
+@media(max-width: 880px){
+    #hardwarediv img{
+        display:none;
+    }
+    #hardwarediv h2, h3{
+        margin:10px 0 10px 0;
+    }
+    .ordersubsection{
+        width:100%;
+        margin:0;
+    }
+    hr{
+        margin:10px 0 10px 0;
+    }
+    #ordersummary{
+        width:100%;
+    }
+    table{
+        font-size:16px;
+    }
+    caption{
+        font-size:18px;
+    }
+    td{
+        padding: 5px;
+        font-size:16px;
+    }
+    #checkoutform{
+        width:100%;
+        font-size:16px;
+    }
+    #orderemail{
+        width:80px;
+    }
+}
