@@ -1,3 +1,6 @@
+# ITComWen
+A final project of multimedia web development course
+
 CopyRight (C) by Herbert Lam
 
 This is an academic project of front-end web development, one of my first IT courses in my life.
