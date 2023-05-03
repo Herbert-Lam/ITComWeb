@@ -1,6 +1,8 @@
 # ITComWeb
 A term project of multimedia web development course
 
+Website link: https://herbert-lam.github.io/ITComWeb/
+
 CopyRight (C) by Herbert Lam
 
 This is an academic project of front-end web development, one of my first IT courses in my life.
