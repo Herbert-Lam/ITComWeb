@@ -1,5 +1,5 @@
-# ITComWen
-A final project of multimedia web development course
+# ITComWeb
+A term project of multimedia web development course
 
 CopyRight (C) by Herbert Lam
 
@@ -7,5 +7,5 @@ This is an academic project of front-end web development, one of my first IT cou
 I learnt this course for 3 months only and created this project with 2 - 3 days.
 
 All content of this website is unreal and imagined by me.
-This website contains 8 pages and was built with HTML, CSS and Javascript.
+This website contains 8 pages and was built with HTML, CSS and Javascript only.
 The final score of this project is 100%.
